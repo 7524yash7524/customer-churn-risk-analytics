@@ -12,8 +12,8 @@ st.set_page_config(page_title="Customer Retention Risk Dashboard", layout="wide"
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/scored_customers.csv")
-    calib = pd.read_csv("../data/calibration_curve.csv")
+    df = pd.read_csv("data/scored_customers.csv")
+    calib = pd.read_csv("data/calibration_curve.csv")
     return df, calib
 
 df, calib = load_data()
