@@ -1,7 +1,7 @@
 ### 🎯 Customer Retention Risk & Value-Based Targeting
 Calibrated churn prediction model (Gradient Boosting + isotonic calibration, ROC-AUC 0.845) 
 paired with a risk × customer-value targeting layer, modeled on boutique consulting 
-methodology (FischerJordan's Risk & Customer Analytics practice). Ranks customers by 
+methodology (Customer Analytics practice). Ranks customers by 
 expected ROI of retention spend rather than risk alone.
 
 **Live dashboard:** [Customer Retention Risk Dashboard](https://customer-churn-risk-analytics-bogmrxieudfevykczcxoht.streamlit.app/)
